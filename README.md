@@ -2,104 +2,123 @@
 Implement new parallel algorithms in nx-parallel project timeline
 
 # Project Timeline
-This project timeline outlines my planned work and tasks for the 13-week Implement-new-parallel-algorithms-in-nx-parallel Outreachy internship from December to March. I have broken down the timeline into detailed weekly deliverables totaling 40 hours per week. Please refer to the guide below for the full timeline. I am excited to contribute to the Implement-new-parallel-algorithms-in-nx-parallel project through this internship opportunity!
+This project timeline outlines my planned work and tasks for the 13-week Implement-new-parallel-algorithms-in-nx-parallel Outreachy internship from December to March. I have broken down the timeline into detailed weekly deliverables totaling 40 hours per week. Please take a look at the guide below for the full timeline. I am excited to contribute to the Implement-new-parallel-algorithms-in-nx-parallel project through this internship opportunity!
 
-**Week 1 (Dec 4 - Dec 10):**
+### Week 1 (December 4 - December 10)
 
-- Read nx-parallel documentation and examples (8 hrs)
-- Set up a development environment for nx-parallel (4 hrs)  
-- Review NetworkX parallel dispatch docs (4 hrs)
-- Attend intro meeting with mentors (2 hrs)
-- Create draft PR with an example parallel algorithm (PageRank) (16 hrs)
-- Weekly meeting with mentors (2 hrs)
+- [ ] Read nx-parallel docs and setup environment    
+- [ ] Review NetworkX parallel dispatch docs
+- [ ] Attend intro meeting with mentors
+- [ ] Create draft PR for parallel PageRank implementation   
+- [ ] Demo initial PageRank PR in mentor meeting
+- [ ] Blog post on getting started with nx-parallel
+- [ ] Buffer time for delays
 
-**Week 2 (Dec 11 - Dec 17):**  
+### Week 2 (December 11 - December 17) 
 
-- Incorporate mentor feedback into PageRank implementation (8 hrs)
-- Add tests for PageRank algorithm (8 hrs) 
-- Benchmark performance of parallel vs sequential PageRank (8 hrs)
-- Start documentation for parallel PageRank (4 hrs)
-- Weekly meeting with mentors (2 hrs)
+- [ ] Incorporate feedback and finalize PageRank PR
+- [ ] Write unit tests for the PageRank algorithm  
+- [ ] Benchmark performance of parallel vs sequential PageRank
+- [ ] Start documentation for parallel PageRank
+- [ ] Weekly sync with mentors
+- [ ] Buffer time for delays
 
-**Week 3 (Dec 18 - Dec 24):**
+### Week 3 (December 18 - December 24)
 
-- Complete documentation for parallel PageRank (4 hrs)  
-- Start implementation of parallel Betweenness Centrality (16 hrs)
-- Write a proposal for parallel Betweenness Centrality approach (4 hrs)
-- Weekly meeting with mentors (2 hrs)
+- [ ] Complete documentation for PageRank API   
+- [ ] Release parallel PageRank feature
+- [ ] Draft proposal for parallel triangle counting approach
+- [ ] Start coding parallel triangle counting implementation
+- [ ] Weekly sync with mentors
+- [ ] Buffer time for delays
 
-**Week 4 (Dec 25 - Dec 31):**
+### Week 4 (December 25 - December 31)
 
-- Incorporate mentor feedback into Betweenness Centrality impl (8 hrs) 
-- Continue working on Betweenness Centrality implementation (24 hrs) 
-- Weekly meeting with mentors (2 hrs)
+- [ ] Finish coding parallel triangle counting algorithm
+- [ ] Write unit tests for triangle counting  
+- [ ] Start performance benchmarking 
+- [ ] Weekly sync with mentors
+- [ ] Buffer time for delays
 
-**Week 5 (Jan 1 - Jan 7):**
+### Week 5 (January 1 - January 7) 
 
-- Complete initial implementation of parallel Betweenness Centrality (16 hrs)
-- Add tests for the Betweenness Centrality algorithm (8 hrs)
-- Benchmark performance vs sequential algorithm (4 hrs)
-- Start documentation for parallel Betweenness Centrality (4 hrs) 
-- Weekly meeting with mentors (2 hrs)
+- [ ] Complete benchmarking parallel triangle counting   
+- [ ] Finalize documentation for the triangle counting algorithm 
+- [ ] Submit PR for triangle counting feature
+- [ ] Draft proposal for parallel community detection
+- [ ] Start coding parallel community detection
+- [ ] Weekly sync with mentors
+- [ ] Buffer time for delays
 
-**Week 6 (Jan 8 - Jan 14):** 
+### Week 6 (January 8 - January 14)
 
-- Complete documentation for parallel Betweenness Centrality (8 hrs)
-- Submit PR for PageRank and Betweenness Centrality algorithms (4 hrs)  
-- Start implementation of parallel Community Detection algorithm (16 hrs)
-- Draft proposal for parallel Community Detection approach (4 hrs)
-- Weekly meeting with mentors (2 hrs)
+- [ ] Continue working on parallel community detection 
+- [ ] Write unit tests for community detection
+- [ ] Start benchmarking community detection
+- [ ] Weekly sync with mentors
+- [ ] Buffer time for delays
 
-**Week 7 (Jan 15 - Jan 21):**
+### Week 7 (January 15 - January 21)
 
-- Meet with mentors to review progress and proposal (4 hrs) 
-- Incorporate feedback into Community Detection implementation (8 hrs)
-- Continue working on the Community Detection algorithm (20 hrs)
-- Weekly meeting with mentors (2 hrs)
+- [ ] Complete parallel community detection implementation
+- [ ] Finish benchmarking community detection 
+- [ ] Finalize documentation for community detection
+- [ ] Submit PR for community detection feature   
+- [ ] Draft proposal for next algorithm
+- [ ] Start implementation
+- [ ] Weekly sync with mentors
+- [ ] Buffer time for delays
 
-**Week 8 (Jan 22 - Jan 28):**
+### Week 8 (January 22 - January 28)  
 
-- Complete initial implementation of parallel Community Detection (16 hrs) 
-- Add tests for the Community Detection algorithm (8 hrs)
-- Benchmark performance vs sequential algorithm (4 hrs)  
-- Start documentation for parallel Community Detection (4 hrs)
-- Weekly meeting with mentors (2 hrs)
+- [ ] Continue implementation of next algorithm
+- [ ] Write unit tests
+- [ ] Start benchmarking next algorithm    
+- [ ] Weekly sync with mentors
+- [ ] Buffer time for delays
 
-**Week 9 (Jan 29 - Feb 4):**
+### Week 9 (January 29 - February 4)
 
-- Complete documentation for parallel Community Detection (8 hrs) 
-- Submit PR for Betweenness Centrality and Community Detection (4 hrs)
-- Start implementation of parallel Triangle Counting algorithm (16 hrs) 
-- Draft proposal for parallel Triangle Counting approach (4 hrs)
-- Weekly meeting with mentors (2 hrs)
+- [ ] Complete implementation of next algorithm
+- [ ] Finish benchmarking next algorithm  
+- [ ] Finalize documentation of next algorithm
+- [ ] Submit PR for next algorithm
+- [ ] Draft proposal for final algorithm 
+- [ ] Start implementation
+- [ ] Weekly sync with mentors 
+- [ ] Buffer time for delays
 
-**Week 10 (Feb 5 - Feb 11):**
+### Week 10 (February 5 - February 11)  
 
-- Meet with mentors to review the proposal (2 hrs)
-- Incorporate feedback into Triangle Counting implementation (8 hrs)  
-- Continue working on Triangle Counting algorithm (24 hrs)
-- Weekly meeting with mentors (2 hrs)
+- [ ] Continue implementation of final algorithm
+- [ ] Write unit tests
+- [ ] Start benchmarking final algorithm    
+- [ ] Weekly sync with mentors
+- [ ] Buffer time for delays
 
-**Week 11 (Feb 12 - Feb 18):**
+### Week 11 (February 12 - February 18)  
 
-- Complete initial implementation of parallel Triangle Counting (16 hrs) 
-- Add tests for Triangle Counting algorithm (8 hrs)
-- Benchmark performance vs sequential algorithm (4 hrs)
-- Start documentation for parallel Triangle Counting (4 hrs)
-- Weekly meeting with mentors (2 hrs)
+- [ ] Complete implementation of final algorithm
+- [ ] Finish benchmarking final algorithm
+- [ ] Finalize documentation of final algorithm
+- [ ] Submit PR for final algorithm
+- [ ] Write blog post summarizing work 
+- [ ] Weekly sync with mentors
+- [ ] Buffer time for delays
 
-**Week 12 (Feb 19 - Feb 25):**
+### Week 12 (February 19 - February 25)   
 
-- Complete documentation for parallel Triangle Counting (8 hrs)
-- Submit PR for Community Detection and Triangle Counting (4 hrs) 
-- Write summary of work completed and lessons learned (8 hrs)
-- Draft Outreachy final project submission (8 hrs)  
-- Weekly meeting with mentors (2 hrs)
+- [ ] Release final parallel algorithm 
+- [ ] Write report summarizing achievements 
+- [ ] Draft Outreachy final project submission
+- [ ] Weekly sync with mentors
+- [ ] Buffer time for delays
 
-**Week 13 (Feb 26 - Mar 4):**
+### Week 13 (February 26 - March 4)
 
-- Complete Outreachy final project submission (8 hrs)
-- Meet with mentors to review entire contribution (4 hrs)
-- Make any final corrections to documentation (16 hrs)
-- Celebrate completing the project! (8 hrs) 
-- Weekly meeting with mentors (2 hrs)
+- [ ] Finalize Outreachy project submission  
+- [ ] Demo work to mentors in final meeting
+- [ ] Submit any remaining docs
+- [ ] Celebrate project completion!
+- [ ] Weekly sync with mentors
+- [ ] Buffer time for delays
