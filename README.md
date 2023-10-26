@@ -4,121 +4,72 @@ Implement new parallel algorithms in nx-parallel project timeline
 # Project Timeline
 This project timeline outlines my planned work and tasks for the 13-week Implement-new-parallel-algorithms-in-nx-parallel Outreachy internship from December to March. I have broken down the timeline into detailed weekly deliverables totaling 40 hours per week. Please take a look at the guide below for the full timeline. I am excited to contribute to the Implement-new-parallel-algorithms-in-nx-parallel project through this internship opportunity!
 
-### Week 1 (December 4 - December 10)
+# Internship Project Timeline
 
-- [ ] Read nx-parallel docs and setup environment    
-- [ ] Review NetworkX parallel dispatch docs
-- [ ] Attend intro meeting with mentors
-- [ ] Create draft PR for parallel PageRank implementation   
-- [ ] Demo initial PageRank PR in mentor meeting
-- [ ] Blog post on getting started with nx-parallel
-- [ ] Buffer time for delays
+## Week 1 (December 4 - December 8)
+- [ ] Familiarize with NetworkX API and Tutorials (10 hrs)
+- [ ] Set up development environment and clone nx-parallel repository (6 hrs)
+- [ ] Attend the kickoff meeting and discuss project goals and expectations (4 hrs)
 
-### Week 2 (December 11 - December 17) 
+## Week 2 (December 11 - December 15) - Boundary Algorithm
+- [ ] Read API documentation and codebase for Boundary algorithm (8 hrs)
+- [ ] Identify the key functions and data structures relevant to the Boundary algorithm (6 hrs)
+- [ ] Begin implementing the parallel version of the Boundary algorithm (16 hrs)
 
-- [ ] Incorporate feedback and finalize PageRank PR
-- [ ] Write unit tests for the PageRank algorithm  
-- [ ] Benchmark performance of parallel vs sequential PageRank
-- [ ] Start documentation for parallel PageRank
-- [ ] Weekly sync with mentors
-- [ ] Buffer time for delays
+## Week 3 (December 18 - December 22) - Boundary Algorithm
+- [ ] Continue implementing the parallel Boundary algorithm (12 hrs)
+- [ ] Write unit tests for the implemented functionality (8 hrs)
 
-### Week 3 (December 18 - December 24)
+## Week 4 (December 25 - December 29) - Boundary Algorithm
+- [ ] Complete the implementation of the parallel Boundary algorithm (10 hrs)
+- [ ] Perform initial testing and debugging (10 hrs)
+- [ ] Prepare a pull request with the implemented algorithm (10 hrs)
 
-- [ ] Complete documentation for PageRank API   
-- [ ] Release parallel PageRank feature
-- [ ] Draft proposal for parallel triangle counting approach
-- [ ] Start coding parallel triangle counting implementation
-- [ ] Weekly sync with mentors
-- [ ] Buffer time for delays
+## Week 5 (January 1 - January 5) - Bridges Algorithm
+- [ ] Read API documentation and codebase for Bridges algorithm (8 hrs)
+- [ ] Identify the key functions and data structures relevant to the Bridges algorithm (6 hrs)
+- [ ] Begin implementing the parallel version of the Bridges algorithm (16 hrs)
 
-### Week 4 (December 25 - December 31)
+## Week 6 (January 8 - January 12) - Bridges Algorithm
+- [ ] Continue implementing the parallel Bridges algorithm (12 hrs)
+- [ ] Write unit tests for the implemented functionality (8 hrs)
 
-- [ ] Finish coding parallel triangle counting algorithm
-- [ ] Write unit tests for triangle counting  
-- [ ] Start performance benchmarking 
-- [ ] Weekly sync with mentors
-- [ ] Buffer time for delays
+## Week 7 (January 15 - January 19) - Bridges Algorithm
+- [ ] Complete the implementation of the parallel Bridges algorithm (10 hrs)
+- [ ] Perform initial testing and debugging (10 hrs)
+- [ ] Prepare a pull request with the implemented algorithm (10 hrs)
 
-### Week 5 (January 1 - January 7) 
+## Week 8 (January 22 - January 26) - Chains Algorithm
+- [ ] Read API documentation and codebase for Chains algorithm (8 hrs)
+- [ ] Identify the key functions and data structures relevant to the Chains algorithm (6 hrs)
+- [ ] Begin implementing the parallel version of the Chains algorithm (16 hrs)
 
-- [ ] Complete benchmarking parallel triangle counting   
-- [ ] Finalize documentation for the triangle counting algorithm 
-- [ ] Submit PR for triangle counting feature
-- [ ] Draft proposal for parallel community detection
-- [ ] Start coding parallel community detection
-- [ ] Weekly sync with mentors
-- [ ] Buffer time for delays
+## Week 9 (January 29 - February 2) - Chains Algorithm
+- [ ] Continue implementing the parallel Chains algorithm (12 hrs)
+- [ ] Write unit tests for the implemented functionality (8 hrs)
 
-### Week 6 (January 8 - January 14)
+## Week 10 (February 5 - February 9) - Chains Algorithm
+- [ ] Complete the implementation of the parallel Chains algorithm (10 hrs)
+- [ ] Perform initial testing and debugging (10 hrs)
+- [ ] Prepare a pull request with the implemented algorithm (10 hrs)
 
-- [ ] Continue working on parallel community detection 
-- [ ] Write unit tests for community detection
-- [ ] Start benchmarking community detection
-- [ ] Weekly sync with mentors
-- [ ] Buffer time for delays
+## Week 11 (February 12 - February 16) - Additional Algorithm
+- [ ] Research and select additional parallel algorithms to implement (8 hrs)
+- [ ] Read API documentation and codebase for the selected algorithms (8 hrs)
+- [ ] Begin implementing one additional parallel algorithm (16 hrs)
 
-### Week 7 (January 15 - January 21)
+## Week 12 (February 19 - February 23) - Additional Algorithm
+- [ ] Continue implementing the additional parallel algorithm (12 hrs)
+- [ ] Write unit tests for the implemented functionality (8 hrs)
 
-- [ ] Complete parallel community detection implementation
-- [ ] Finish benchmarking community detection 
-- [ ] Finalize documentation for community detection
-- [ ] Submit PR for community detection feature   
-- [ ] Draft proposal for next algorithm
-- [ ] Start implementation
-- [ ] Weekly sync with mentors
-- [ ] Buffer time for delays
+## Week 13 (February 26 - March 2) - Additional Algorithm
+- [ ] Complete the implementation of the additional parallel algorithm (10 hrs)
+- [ ] Perform initial testing and debugging (10 hrs)
+- [ ] Prepare a pull request with the implemented algorithm (10 hrs)
+- [ ] Prepare final project documentation and wrap up (10 hrs)
 
-### Week 8 (January 22 - January 28)  
-
-- [ ] Continue implementation of next algorithm
-- [ ] Write unit tests
-- [ ] Start benchmarking next algorithm    
-- [ ] Weekly sync with mentors
-- [ ] Buffer time for delays
-
-### Week 9 (January 29 - February 4)
-
-- [ ] Complete implementation of next algorithm
-- [ ] Finish benchmarking next algorithm  
-- [ ] Finalize documentation of next algorithm
-- [ ] Submit PR for next algorithm
-- [ ] Draft proposal for final algorithm 
-- [ ] Start implementation
-- [ ] Weekly sync with mentors 
-- [ ] Buffer time for delays
-
-### Week 10 (February 5 - February 11)  
-
-- [ ] Continue implementation of final algorithm
-- [ ] Write unit tests
-- [ ] Start benchmarking final algorithm    
-- [ ] Weekly sync with mentors
-- [ ] Buffer time for delays
-
-### Week 11 (February 12 - February 18)  
-
-- [ ] Complete implementation of final algorithm
-- [ ] Finish benchmarking final algorithm
-- [ ] Finalize documentation of final algorithm
-- [ ] Submit PR for final algorithm
-- [ ] Write blog post summarizing work 
-- [ ] Weekly sync with mentors
-- [ ] Buffer time for delays
-
-### Week 12 (February 19 - February 25)   
-
-- [ ] Release final parallel algorithm 
-- [ ] Write report summarizing achievements 
-- [ ] Draft Outreachy final project submission
-- [ ] Weekly sync with mentors
-- [ ] Buffer time for delays
-
-### Week 13 (February 26 - March 4)
-
-- [ ] Finalize Outreachy project submission  
-- [ ] Demo work to mentors in final meeting
-- [ ] Submit any remaining docs
-- [ ] Celebrate project completion!
-- [ ] Weekly sync with mentors
-- [ ] Buffer time for delays
+``` article
+Throughout the internship:
+- [ ] Attend weekly meetings (1 hr/week)
+- [ ] Collaborate with mentors and seek feedback as needed
+```
