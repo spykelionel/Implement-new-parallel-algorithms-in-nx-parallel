@@ -2,6 +2,7 @@
 Implement new parallel algorithms in nx-parallel project timeline
 
 # About
+NetworkX is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks. NetworkX has a wide variety of algorithms implemented to study complex networks. NetworkX is a pure python package with no dependencies, with a target of keeping the code readable as a reference implementation. Due to this, we haven't yet added parallel implementations of graph algorithms in NetworkX.
 
 # Project Timeline
 
